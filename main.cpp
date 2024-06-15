@@ -33,8 +33,8 @@ int main()
     //     t_2 = next_term;
     // }
     // printf("\r\n");
-
-    printf("Finbonachi series recursive:");
+//Send the number to the serial port
+    printf("Finbonachi series recursive: \n");
     for(int i=0; i<max_terms; i++){
         printf("%d, ", fib(i));
     }
